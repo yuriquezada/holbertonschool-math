@@ -11,7 +11,7 @@ void display_complex_number(complex c)
 	if (c.re == 0)
 	{
 		if (c.im < 0)
-			printf("%di\n", c.im);
+			printf("- %di\n", c.im * (-1));
 		else if (c.im == 0)
 			printf("0\n");
 		else
