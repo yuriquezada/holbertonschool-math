@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * conjugate - return the conjugate of a given complex number
  * @c: structure of a complex number
  * Return: c
  */
