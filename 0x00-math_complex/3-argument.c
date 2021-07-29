@@ -11,6 +11,6 @@ double argument(complex c)
 {
 	double arg;
 	
-	arg = atan((double)(c.im) / (double)(c.re));
+	arg = atan(c.im / c.re);
 	return (arg);
 }
