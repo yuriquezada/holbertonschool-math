@@ -4,7 +4,7 @@
 /**
  * argument - return the argument of a given complex number
  * @c: structure of a complex number
- * Return: c
+ * Return: arg
  */
 
 double argument(complex c)
