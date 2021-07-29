@@ -20,14 +20,14 @@ void display_complex_number(complex c)
 	else
 	{
 		if (c.im < -1)
-			printf("%f - %fi\n", c.re, c.im * (-1));
+			printf("%.9g - %.9gi\n", c.re, c.im * (-1));
 		else if (c.im == -1)
-			printf("%f - i\n", c.re);
+			printf("%.9g - i\n", c.re);
 		else if (c.im == 0)
-			printf("%f\n", c.re);
+			printf("%.9g\n", c.re);
 		else if (c.im == 1)
-			printf("%f + i\n", c.re);
+			printf("%.9g + i\n", c.re);
 		else
-			printf("%f + %fi\n", c.re, c.im);
+			printf("%.9g + %.9gi\n", c.re, c.im);
 	}
 }
