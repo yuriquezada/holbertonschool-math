@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * argument - return the argument of a given complex number
+ * addition - perform the addition operation to complex numbers
  * @c1: first complex number
  * @c2: second complex number
  * @c3: sum of complex numbers
