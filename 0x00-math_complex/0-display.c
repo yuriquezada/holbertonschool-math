@@ -11,11 +11,11 @@ void display_complex_number(complex c)
 	if (c.re == 0)
 	{
 		if (c.im < 0)
-			printf("- %fi\n", c.im * (-1));
+			printf("- %.9gi\n", c.im * (-1));
 		else if (c.im == 0)
 			printf("0\n");
 		else
-			printf("%f\n", c.im);
+			printf("%.9g\n", c.im);
 	}
 	else
 	{
