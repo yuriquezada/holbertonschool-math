@@ -16,5 +16,6 @@ typedef struct number_complex
 void display_complex_number(complex c);
 complex conjugate(complex c);
 double modulus(complex c);
+double argument(complex c);
 
 #endif
